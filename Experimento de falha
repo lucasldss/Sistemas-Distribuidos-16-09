@@ -1,0 +1,5 @@
+4. Explique por que uma chamada que parecia uma funcao simples deixou de funcionar.
+A chamada deixou de funcionar por que a funcao foi executada remotamente pelo servidor. Se o servidor for indisponivel, as chamadas RPC nao podem ser realizadas, mesmo que nenhumcodigo parecam de funcao comuns.
+
+5. Relacao de resultado com disponibilidade e dependencia da rede.
+O resultado demonstra a dependencia da rede e da disponibilidade do servidor. Se o servidor for indisponivel, as chamadas RPC nao podem ser realizadas, mesmo que nenhum codigo parecam de funcoes comuns.
