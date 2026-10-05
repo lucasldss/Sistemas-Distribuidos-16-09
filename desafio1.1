@@ -1,0 +1,11 @@
+import xmlrpc.client
+
+# Troque pelo IP do computador onde o servidor está rodando
+servidor = xmlrpc.client.ServerProxy("http://127.0.0.1:8000/")
+
+print("10 + 5 =", servidor.soma(10, 5))
+print("10 - 5 =", servidor.subtracao(10, 5))
+print("10 x 5 =", servidor.multiplicacao(10, 5))
+
+print("10 / 2 =", servidor.divisao(10, 2))
+print("10 / 0 =", servidor.divisao(10, 0))
