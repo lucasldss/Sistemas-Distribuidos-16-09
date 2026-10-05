@@ -1,0 +1,5 @@
+PS C:\Users\aluno\Desktop\calculadora> & "C:\Program Files\Python313\python.exe" c:/Users/aluno/Desktop/calculadora/cliente_rpc.py
+10+5= 15
+10-5= 5
+10x5= 50
+PS C:\Users\aluno\Desktop\calculadora> []
